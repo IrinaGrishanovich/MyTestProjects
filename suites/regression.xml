@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression suite">
+    <listeners>
+        <listener class-name="com.fourc.testframework.helper.Listener"/>
+    </listeners>
+    <test name="Regression" enabled="true" preserve-order="true">
+        <classes>
+            <class name="com.fourc.testframework.regression.IndeedLoginMultipleUsersTest"/>
+        </classes>
+    </test>
+</suite>

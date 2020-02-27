@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke" verbose="1" parallel="methods" thread-count="1">
+    <listeners>
+        <listener class-name="com.fourc.testframework.helper.Listener"/>
+    </listeners>
+    <test name="IndeedLoginTest" enabled="true" preserve-order="true">
+        <classes>
+            <class name="com.fourc.testframework.smoke.IndeedLoginTest"/>
+            <class name="com.fourc.testframework.smoke.MainPageTest"/>
+        </classes>
+    </test>
+</suite>
+
+
+
